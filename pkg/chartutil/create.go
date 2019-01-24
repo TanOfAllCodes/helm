@@ -51,8 +51,8 @@ const (
 	// TestConnectionName is the name of the example connection test file.
 	TestConnectionName = "test-connection.yaml"
 )
-
-const defaultValues = `# Default values for %s.
+//Feature Request :can we have these default values read from a file, that can be accessed by the developer to create their own templates? 
+const defaultValues = `# Default values for %s. 
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
